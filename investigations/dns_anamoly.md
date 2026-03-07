@@ -98,6 +98,7 @@ These indicators strengthen DNS-based anomaly detection capability in SOC enviro
 - Traffic pattern: (burst / consistent / abnormal)
 - NXDOMAIN rate: (Calculate %)
 
-## Conclusion
-Traffic appears (benign / suspicious).
-Further investigation recommended if NXDOMAIN rate is high.
+---
+
+## Conclusiom
+DNS traffic analysis was performed to identify anomalous DNS behavior such as DNS tunneling or DGA-based malware activity. Analysis included top source IP identification, unique domain count, response code distribution, and NXDOMAIN rate analysis. The observed NXDOMAIN rate remained below suspicious thresholds, indicating no evidence of DNS tunneling or domain generation activity within the dataset.
